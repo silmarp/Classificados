@@ -19,6 +19,5 @@ from my_app import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('myapp/', include('my_app.urls')),
-    
+    path('', include('my_app.urls')),
 ]
